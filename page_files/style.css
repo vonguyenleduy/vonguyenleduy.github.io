@@ -21,7 +21,12 @@ a:hover
 a#normal
 {
     text-decoration: none;
-    color: #224b8d
+    /*color: #224b8d*/
+}
+
+a#normal:link
+{
+    color: #224b8d;
 }
 
 a#normal:hover{
@@ -29,7 +34,9 @@ a#normal:hover{
     text-decoration-color: #224b8d
 }
 
-a#top:link, a:visited
+
+
+a#top:link
 {
 	padding: 5px 5px 5px 5px;
     color: black;
@@ -38,6 +45,10 @@ a#top:link, a:visited
     box-shadow: 0px 1px 1px #1c1a19;
 }
 
+a#top:visited
+{
+    color: black;
+}
 
 a#top:hover
 {
@@ -49,22 +60,28 @@ a#top:hover
 }
 
 
+a#special
+{
+    /*text-decoration: none;*/
+    color: #224b8d
+}
+
 a#special:link, a:visited
 {
-	padding: 1px 1px 1px 1px;
-    color: black;
-    text-decoration: black;
+	padding: 1px 3px 1px 3px;
+    color: #224b8d;
+    text-decoration: #224b8d;
     background-color: none;
-    box-shadow: 0px 1px 1px #1c1a19;
+    box-shadow: 0px 1px 0.5px #1c1a19;
 }
 
 
 a#special:hover
 {
-	padding: 1px 1px 1px 1px;
-    text-decoration: black;
+	padding: 1px 2¥3px 1px 3px;
+    text-decoration: #224b8d;
     box-shadow: 0px 4px 4px #527bbd;
-    color: black;
+    color: #224b8d;
     border-bottom: 3px solid #527bbd;
 }
 
