@@ -36,6 +36,11 @@ a#normal:hover{
 
 
 
+a#top
+{
+    text-decoration: none;
+}
+
 a#top:link
 {
 	padding: 5px 5px 5px 5px;
@@ -62,7 +67,7 @@ a#top:hover
 
 a#special
 {
-    /*text-decoration: none;*/
+    text-decoration: none;
     color: #224b8d
 }
 
@@ -72,7 +77,7 @@ a#special:link, a:visited
     color: #224b8d;
     text-decoration: #224b8d;
     background-color: none;
-    box-shadow: 0px 1px 0.5px #1c1a19;
+    box-shadow: 0px 0.5px 1px #1c1a19;
 }
 
 
