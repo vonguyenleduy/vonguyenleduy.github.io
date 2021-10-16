@@ -108,7 +108,10 @@ h1 {color: #527bbd;}
 h2#res {color: #990000; text-align: center;}
 h2#res {color: #000000; text-align: left;}*/
 
-h2 {color: #527bbd}
+h2 {
+    color: #527bbd; 
+    border-bottom: 2px solid #aaaaaa;
+}
 
 td#tea {border: none; padding-bottom: 3px;}
 span#tea {font-weight: bold; font-size: 14pt;}
