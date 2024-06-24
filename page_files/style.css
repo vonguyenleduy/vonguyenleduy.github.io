@@ -110,6 +110,10 @@ h2#res {color: #000000; text-align: left;}*/
 
 h2 {
     color: #527bbd; 
+    /*border-bottom: 2px solid #aaaaaa;*/
+}
+
+h2#bottom {
     border-bottom: 2px solid #aaaaaa;
 }
 
